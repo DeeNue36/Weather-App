@@ -94,4 +94,13 @@ body{
     margin-top: -6px;
 }
 
+.weather{
+    display: none;
+}
+
+.error-message{
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
+}
 /* Media Queries */
