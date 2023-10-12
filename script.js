@@ -35,19 +35,19 @@ async function checkWeather(city){
             weatherIcon.src = "images/clouds.png";
         }
         else if(data.weather[0].main === "Rain"){
-            weatherIcon.src = "images/rain.jpg" ;
+            weatherIcon.src = "images/rain.png" ;
         }
         else if(data.weather[0].main === "Clear"){
-            weatherIcon.src = "images/clear.jpg" ;
+            weatherIcon.src = "images/clear.png" ;
         }
         else if(data.weather[0].main === "Drizzle"){
-            weatherIcon.src = "images/drizzle.jpg" ;
+            weatherIcon.src = "images/drizzle.png" ;
         }
         else if(data.weather[0].main === "Mist"){
-            weatherIcon.src = "images/mist.jpg" ;
+            weatherIcon.src = "images/mist.png" ;
         }
         else if(data.weather[0].main === "Snow"){
-            weatherIcon.src = "images/snow.jpg" ;
+            weatherIcon.src = "images/snow.png" ;
         }
     
         //to display the weather info once a city has been searched
